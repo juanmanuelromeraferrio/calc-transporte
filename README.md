@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/juanmanuelromeraferrio/calc-transporte.svg?branch=master)](https://travis-ci.org/juanmanuelromeraferrio/calc-transporte)
+
+[![Coverage Status](https://coveralls.io/repos/github/juanmanuelromeraferrio/calc-transporte/badge.svg?branch=master)](https://coveralls.io/github/juanmanuelromeraferrio/calc-transporte?branch=master)
+
 Calculadora de Transporte AMBA
 =========
 
