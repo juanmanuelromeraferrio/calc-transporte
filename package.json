@@ -1,0 +1,35 @@
+{
+  "name": "calc-transporte",
+  "version": "0.1.0",
+  "description": "Calculadora de transporte AMBA",
+  "main": "index.js",
+  "scripts": {
+    "build-debug": "browserify index.js -d --s calc-transporte > dist/calc-transporte.browserify.js",
+    "build-min": "browserify index.js --s calc-transporte | uglifyjs -c > dist/calc-transporte.min.js",
+    "build": "npm run build-debug && npm run build-min",
+    "test": "mocha tests --recursive",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec ./tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanmanuelromeraferrio/calc-transporte.git"
+  },
+  "keywords": [
+    "calculadora",
+    "transporte",
+    "sube",
+    "argentina",
+    "amba"
+  ],
+  "author": "Juan Manuel Romera Ferrio <juanmanuel.romeraferrio@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanmanuelromeraferrio/calc-transporte/issues"
+  },
+  "homepage": "https://github.com/juanmanuelromeraferrio/calc-transporte#readme",
+  "dependencies": {
+    "lodash.defaults": "^4.2.0",
+    "lodash.flowright": "^3.5.0",
+    "lodash.foreach": "^4.5.0"
+  }
+}

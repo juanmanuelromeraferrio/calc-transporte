@@ -1,0 +1,56 @@
+{
+    "sube": [
+        {
+            "date": "2018-02",
+            "values": [
+                {
+                    "trip": 1,
+                    "value": 1
+                },
+                {
+                    "trip": 2,
+                    "value": 0.5
+                },
+                {
+                    "trip": 3,
+                    "value": 0.25
+                }
+            ]
+        }
+    ],
+    "subway": [
+        {
+            "date": "2016-10",
+            "values": [
+                {
+                    "trip": 21,
+                    "value": 0.8
+                },
+                {
+                    "trip": 31,
+                    "value": 0.7
+                },
+                {
+                    "trip": 41,
+                    "value": 0.6
+                }
+            ]
+        }
+    ],
+    "benefit1": [
+        {
+            "date": "1999-01",
+            "value": 0.45
+        }
+    ],
+    "benefit2": [
+        {
+            "date": "2018-05",
+            "value": 6
+        },
+        {
+            "date": "2018-07",
+            "value": 7
+        }
+    ]
+}
