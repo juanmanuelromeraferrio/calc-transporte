@@ -16,12 +16,12 @@ Biblioteca que permite calcular cuanto vas a gastar por transporte en Argentina 
 ```js
 var CalcTransporte = require('calc-transporte');
 
-    var options = {
-        roundtrip: true,
-        benefit: false,
-        weekTimes: 4,
-        trips: [{ transport: "bus", price: 9.00, id: 0 },{ transport: "bus", price: 9.50, id: 0 }]
-    }
+var options = {
+    roundtrip: true,
+    benefit: false,
+    weekTimes: 4,
+    trips: [{ transport: "bus", price: 9.00, id: 0 },{ transport: "bus", price: 9.50, id: 0 }]
+}
 
 var calcTransporte = new CalcTransporte();
 CalcTransporte.calculate(options);
