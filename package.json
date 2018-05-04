@@ -1,6 +1,6 @@
 {
   "name": "calc-transporte",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Calculadora de transporte AMBA",
   "main": "index.js",
   "scripts": {
