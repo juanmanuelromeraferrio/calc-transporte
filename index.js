@@ -1,3 +1,3 @@
-'use strict';
+"use strict";
 
-module.exports = require('./lib/calc_transporte');
+module.exports = require("./lib/calc_transporte");
